@@ -370,6 +370,53 @@
   .pack-card.featured p{color:#e8e0d8;}
   .pack-card.featured .btn-outline{border-color:var(--white); color:var(--white);}
 
+  /* ---------- KAOLIFT EN PROFUNDIDAD ---------- */
+  .prof-eyebrow{font-family:'Cormorant Garamond', serif; font-style:italic; font-size:1.15rem; color:var(--sage-deep); margin-bottom:12px;}
+  .prof-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .prof-grid .pack-card{display:flex; flex-direction:column;}
+  .prof-grid .pack-card p{flex:1;}
+  .prof-grid .btn-outline{text-align:center;}
+  .ciclo-card{display:flex; justify-content:space-between; align-items:center; gap:24px; margin-top:44px; padding:36px 40px;
+    background:var(--cream-deep); border:1px solid var(--line); border-radius:2px; text-decoration:none; transition:background .25s ease;}
+  .ciclo-card:hover{background:#e8dfcd;}
+  .ciclo-eyebrow{font-size:0.75rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--sage-deep); margin-bottom:6px;}
+  .ciclo-title{font-family:'Cormorant Garamond', serif; font-size:2rem; color:var(--plum-deep); line-height:1.1;}
+  .ciclo-sub{font-size:0.98rem; color:#5a5049; margin-top:6px;}
+  .ciclo-arrow{font-size:0.88rem; letter-spacing:0.03em; color:var(--plum-deep); border-bottom:1px solid var(--sage); white-space:nowrap;}
+
+  .profundidad{background:var(--plum-deep); color:var(--white); padding:110px 0 100px; margin-bottom:90px;}
+  .profundidad-inner{max-width:1120px; margin:0 auto; padding:0 32px;}
+  .profundidad .servicios-head{max-width:720px; margin-bottom:60px;}
+  .profundidad .prof-eyebrow{color:#c9d9c2; font-size:1.3rem;}
+  .profundidad .servicios-head h2{color:var(--white); font-size:3.2rem; line-height:1.1; margin-bottom:22px;}
+  .profundidad .servicios-head p{color:#e8e0d8; font-size:1.12rem;}
+  .profundidad .pack-card{background:transparent; border:1px solid rgba(255,253,249,.22); color:var(--white);}
+  .profundidad .pack-card h3{color:var(--white); font-size:2.1rem;}
+  .profundidad .pack-card .tag{color:#c9d9c2;}
+  .profundidad .pack-card p{color:#e8e0d8;}
+  .profundidad .pack-card .btn-outline{border-color:rgba(255,253,249,.7); color:var(--white);}
+  .profundidad .pack-card.featured{background:var(--cream); border-color:var(--cream); color:var(--ink); transform:translateY(-14px); box-shadow:0 30px 60px -30px rgba(0,0,0,.5);}
+  .profundidad .pack-card.featured h3{color:var(--plum-deep);}
+  .profundidad .pack-card.featured .tag{color:var(--sage-deep);}
+  .profundidad .pack-card.featured p{color:#5a5049;}
+  .profundidad .pack-card.featured .btn-outline{background:var(--plum-deep); border-color:var(--plum-deep); color:var(--white);}
+  .prof-badge{display:inline-block; margin-top:28px; padding:12px 26px; border:1px solid #c9d9c2; border-radius:40px; font-size:0.98rem; letter-spacing:0.02em; color:var(--white);}
+  .prof-badge strong{font-weight:500; color:#c9d9c2;}
+  .prof-price{display:flex; align-items:baseline; gap:12px; margin:4px 0 2px;}
+  .prof-price s{font-size:1rem; color:#a89fb0; text-decoration-thickness:1px;}
+  .prof-price span{font-family:'Cormorant Garamond', serif; font-size:2.3rem; color:var(--white); line-height:1.1;}
+  .prof-save{font-size:0.85rem; color:#e3b7a4; margin-bottom:16px;}
+  .profundidad .pack-card.featured .prof-price span{color:var(--plum-deep);}
+  .profundidad .pack-card.featured .prof-price s{color:#a89f96;}
+  .profundidad .pack-card.featured .prof-save{color:var(--clay);}
+  .profundidad .servicios-note{color:#c9b8cb; margin-top:34px;}
+  .profundidad .ciclo-card{background:rgba(255,253,249,.06); border-color:rgba(255,253,249,.22);}
+  .profundidad .ciclo-card:hover{background:rgba(255,253,249,.12);}
+  .profundidad .ciclo-eyebrow{color:#c9d9c2;}
+  .profundidad .ciclo-title{color:var(--white);}
+  .profundidad .ciclo-sub{color:#e8e0d8;}
+  .profundidad .ciclo-arrow{color:var(--white); border-color:#c9d9c2;}
+
   /* ---------- FAQ ---------- */
   .faq-head{text-align:center; margin-bottom:44px;}
   .faq-head h2{font-size:2.3rem;}
@@ -450,6 +497,12 @@
     .servicio:last-child{border-bottom:none;}
     .voucher{grid-template-columns:1fr;}
     .packs-grid{grid-template-columns:1fr;}
+    .prof-grid{grid-template-columns:1fr;}
+    .ciclo-card{flex-direction:column; align-items:flex-start; padding:30px 26px;}
+    .profundidad{padding:80px 0 70px; margin-bottom:64px;}
+    .profundidad .servicios-head h2{font-size:2.4rem;}
+    .profundidad .pack-card.featured{transform:none;}
+    .prof-badge{font-size:0.88rem; padding:10px 18px;}
     .rec-grid{grid-template-columns:1fr;}
     section{margin-bottom:64px;}
     .regalar{padding:50px 28px;}
@@ -534,6 +587,52 @@
   <p class="servicios-note">Escribime por WhatsApp y te paso valores y turnos disponibles.</p>
 </section>
 
+<!-- KAOLIFT EN PROFUNDIDAD -->
+<div class="profundidad" id="profundidad"><div class="profundidad-inner">
+  <div class="servicios-head">
+    <div class="prof-eyebrow">Kaolift en Profundidad</div>
+    <h2>Una sesión relaja.<br>La continuidad transforma.</h2>
+    <p>Cuatro encuentros para que la tensión se suelte de verdad y los cambios se sostengan, en tu rostro y en cómo te sentís.</p>
+    <div class="prof-badge">Pagás 3 sesiones · <strong>la cuarta va al 50%</strong></div>
+  </div>
+  <div class="prof-grid">
+    <div class="pack-card">
+      <div class="tag">4 sesiones</div>
+      <h3>Esencial</h3>
+      <div class="prof-price"><s>$200.000</s><span>$175.000</span></div>
+      <div class="prof-save">Ahorrás $25.000</div>
+      <p>Para soltar la tensión acumulada y empezar a sostener el cuidado como un hábito.</p>
+      <a class="btn-outline" href="https://wa.me/5493518574107?text=Hola%20Valen!%20Quiero%20Kaolift%20en%20Profundidad%20Esencial" target="_blank">Quiero el mío</a>
+    </div>
+    <div class="pack-card featured">
+      <div class="tag">4 sesiones · Recomendada</div>
+      <h3>Vibracional</h3>
+      <div class="prof-price"><s>$240.000</s><span>$210.000</span></div>
+      <div class="prof-save">Ahorrás $30.000</div>
+      <p>Kaolift con cuencos en cada encuentro, para una relajación cada vez más profunda.</p>
+      <a class="btn-outline" href="https://wa.me/5493518574107?text=Hola%20Valen!%20Quiero%20Kaolift%20en%20Profundidad%20Vibracional" target="_blank">Quiero el mío</a>
+    </div>
+    <div class="pack-card">
+      <div class="tag">4 sesiones</div>
+      <h3>Integral</h3>
+      <div class="prof-price"><s>$260.000</s><span>$227.500</span></div>
+      <div class="prof-save">Ahorrás $32.500</div>
+      <p>Kaolift con reflexología facial holística, para el cuidado más completo.</p>
+      <a class="btn-outline" href="https://wa.me/5493518574107?text=Hola%20Valen!%20Quiero%20Kaolift%20en%20Profundidad%20Integral" target="_blank">Quiero el mío</a>
+    </div>
+  </div>
+  <p class="servicios-note">Precio por las 4 sesiones · Se usan dentro de los 2 meses · Valores para mujeres; para hombres, consultame · Transferencia · Alias: valen.yoga.masajes</p>
+
+  <a class="ciclo-card" href="https://ciclo-regreso.vercel.app" target="_blank">
+    <div>
+      <div class="ciclo-eyebrow">¿Querés ir más hondo?</div>
+      <div class="ciclo-title">Ciclo de Regreso</div>
+      <div class="ciclo-sub">Un mes para volver a vos: Kaolift, yoga y un cierre especial.</div>
+    </div>
+    <span class="ciclo-arrow">Conocer el ciclo →</span>
+  </a>
+</div></div>
+
 <!-- TESTIMONIOS -->
 <div class="testimonios">
   <div class="testimonios-inner">
@@ -568,31 +667,6 @@
   </div>
 </section>
 
-<!-- PACKS -->
-<section>
-  <div class="servicios-head">
-    <h2>Packs para sostener tu rutina</h2>
-    <p>Porque los resultados se notan más cuando Kaolift no es una excepción, sino un hábito.</p>
-  </div>
-  <div class="packs-grid">
-    <div class="pack-card">
-      <div class="tag">Pack x4</div>
-      <h3>4 sesiones</h3>
-      <div class="ahorro">10% de descuento</div>
-      <p>4 sesiones de Kaolift Esencial, para sostener una frecuencia quincenal durante dos meses.</p>
-      <a class="btn-outline" href="https://wa.me/5493518574107?text=Hola%20Valen!%20Quiero%20el%20pack%20x4%20de%20Kaolift" target="_blank">Quiero el pack x4</a>
-    </div>
-    <div class="pack-card featured">
-      <div class="tag">Pack x5 + 1 regalo</div>
-      <h3>5 sesiones</h3>
-      <div class="ahorro">+ 1 sesión de regalo</div>
-      <p>5 sesiones de Kaolift Esencial, y la sexta la regalo yo. No es una excepción en tu rutina — es parte de ella.</p>
-      <a class="btn-outline" href="https://wa.me/5493518574107?text=Hola%20Valen!%20Quiero%20mi%20voucher%20x5%20de%20Kaolift" target="_blank">Quiero mi voucher x5</a>
-    </div>
-  </div>
-  <p class="servicios-note">Ambos packs son para Kaolift Esencial. Transferencia · Alias: valen.yoga.masajes</p>
-</section>
-
 <!-- FAQ -->
 <section>
   <div class="faq-head">
@@ -604,7 +678,7 @@
   </details>
   <details class="faq-item">
     <summary>¿Cada cuánto conviene hacerlo?</summary>
-    <p>Recomiendo una sesión cada 15 días, o una vez por semana para quienes buscan resultados más sostenidos. A mayor frecuencia, mayores beneficios — por eso armé el voucher x5, pensado para sostener esa frecuencia sin pensarlo cada vez.</p>
+    <p>Recomiendo una sesión cada 15 días, o una vez por semana para quienes buscan resultados más sostenidos. A mayor frecuencia, mayores beneficios — por eso armé Kaolift en Profundidad, cuatro sesiones pensadas para sostener esa frecuencia sin pensarlo cada vez.</p>
   </details>
   <details class="faq-item">
     <summary>¿Necesito experiencia previa?</summary>
